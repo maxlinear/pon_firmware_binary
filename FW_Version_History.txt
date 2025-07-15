@@ -1,6 +1,6 @@
 /* **COPYRIGHT******************************************************************
     MAXLINEAR CONFIDENTIAL
-    Copyright (c) 2020 - 2024 MaxLinear Inc.
+    Copyright (c) 2020 - 2025 MaxLinear Inc.
     Copyright 2018 - 2020 Intel Corporation
 ******************************************************************COPYRIGHT** */
 /* **DISCLAIMER*****************************************************************
@@ -34,12 +34,101 @@ TESTBIT+MAJ.MIN.STANDARD.PLATFORM.PATCH
 
 Next:
 
+4.1.x.y.8:
+[PONRTSYS-14659] [NG-PON2] [XGS-PON] [XG-PON1] PLOAM_STATE.Reason is wrong 255 instead of 65535
+[PONRTSYS-14653] [PONLIB] Clean-up of PON_TXOFF_DELAY_ID_E related code
+[PONRTSYS-14667] [NG-PON2] Scan flag set incorrectly in 'Activation Debug information' of Serial_Number_ONU PLOAMu
+[PONRTSYS-14625] [NG-PON2] Bugfix TO4 re-starting within state ploam O8.1
+[PONRTSYS-14702] [PONLIB] Dying Gasp is only armed if the voltage of pin 7 was initially high
+[PONRTSYS-14651] [PONLIB] Missing return after PLOAM state set
+[PONRTSYS-14711] [NG-PON2] Implement concept for SNGI handling and wavelength search algorithm - clone
+
+4.1.x.y.1:
+[PONRTSYS-14523] [G-PON] Add into FW LOG2 debug output of US alloc fifo entries
+[PONRTSYS-14528] [PONLIB] SAS 4.0 new TOPAZ messages shall return NACK
+[PONRTSYS-14336] [PONLIB] Import FW message interface 4.0 header files
+[PONRTSYS-14005] [NG-PON2] Discard set I and set VII upon TOZ expiry in PLOAM state O23
+[PONRTSYS-14553] [PONLIB] Rename function for PON ID admin label checking
+[PONRTSYS-14537] [NG-PON2] Support 2 new parameters from host message TWDM_CONFIG
+[PONRTSYS-14552] [NG-PON2] On wavelength mismatch LOG prints expected value and value in OC structure
+[PONRTSYS-14569] [PONLIB] [LGM-C] Toggle BEDBEN bit after PHY init or upstream reboot
+[PONRTSYS-14588] [PONLIB] Import FW message interface 4.1 header files
+[PONRTSYS-14606] [PONLIB] Reduce code size of uart switching
+[PONRTSYS-14037] [TOPAZ] [G-PON] Clean-up code in function BWM_vBwMapG984
+[PONRTSYS-14545] [TOPAZ] [XGS-PON] Several fixes needed in BWM_vBwMapG989
+[PONRTSYS-14626] [NG-PON2] Add activation reason debug output for ploam O8.2 with TO4 timeout
+[PONRTSYS-14518] [NG-PON2] Implementation of 4 new alarms and no ploam O7.x -> O1.1 state change
+[PONRTSYS-14570] [PONLIB] Publish timeout ID in message ploam state
+
+3.26.x.y.56:
+[PONRTSYS-14022] [TOPAZ] [PONLIB] TOPAZ import IO bus header files
+[PONRTSYS-14377] [Palladium] XGS-PON upstream disabled scrambling
+[PONRTSYS-14379] [Palladium] Disable check for CRC at the end of ploamd (MIC<=>CRC)
+[PONRTSYS-14380] [Palladium] Disable downstream keep FCS in OnuConfig
+[PONRTSYS-14383] [Palladium] Create one GEM port per allocation except OMCC
+[PONRTSYS-14387] [Palladium] Remove call DBG_FPrint from emulation
+[PONRTSYS-14394] [Palladium] Disable timer to suppress fast O1.1 <> O1.2
+[PONRTSYS-14395] [Palladium] Disable InitDpll and InitClkSup
+[PONRTSYS-14396] [Palladium] Disable checks of fuse register bits
+[PONRTSYS-14397] [Palladium] Disable ResetSerdesTx
+[PONRTSYS-14398] [Palladium] Disable all NOC access from ARC
+[PONRTSYS-14417] [XGS-PON] Add debug output into FW LOG for each variance of US FIFO grant size per allocation
+[PONRTSYS-14298] [TOPAZ] Palladium XGS-PON without loop timing O1.1 no DS synch
+[PONRTSYS-14299] [TOPAZ] Palladium XGS-PON without loop timing O1.2 with DS synch
+[PONRTSYS-14300] [TOPAZ] Palladium debug printout of few GEM and ETH counters in US and DS directions
+[PONRTSYS-14039] [TOPAZ] DescFSM HW outputs debug printouts
+[PONRTSYS-14027] [PONLIB] Remove FW based TiBit recognition
+[PONRTSYS-14428] [TOPAZ] [XGS-PON] Optionally suppress calls of BWM_vUsRequestWrite
+[PONRTSYS-14473] [TOPAZ] [XGS-PON] Correction of BWM_vBwMapG989
+[PONRTSYS-14485] [PONLIB] DoxyGen change HTTP links to MaxLinear
+[PONRTSYS-14470] [G-PON] [LGM-C] Revert the clear lower 3 bits in EQDEL.Y
+[PONRTSYS-14511] [G-PON] Adapt limit by plus one for Bw map rule4 check start time is larger than maximum
+[PONRTSYS-14495] [PONLIB] New G.984 preamble pattern content without Bedel modification
+
+3.26.x.y.42:
+[PONRTSYS-14427] [PONLIB] Shorten the burst if allocation has uncorrectable CRC or HEC
+
+3.26.x.y.41:
+[PONRTSYS-14332] [TOPAZ] FW access to tableD needs name mapping
+[PONRTSYS-14226] [G-PON] [LGM-C] Clear lower 3 bits in EQDEL.Y
+
+3.26.x.y.40:
+[PONRTSYS-14272] [TOPAZ] For Paladium remove check for Serial Number
+[PONRTSYS-14019] [TOPAZ] Runtime firmware inputs for DESCFSM in Request based operation mode.
+[PONRTSYS-14026] [TOPAZ] Clean-up code in function BWM_vBwMapG989()
+[PONRTSYS-14038] [TOPAZ] DESC FSM HW initialization (static parameters) by firmware.
+[PONRTSYS-14166] [TOPAZ] remove DR shaper upstream
+[PONRTSYS-14270] [TOPAZ] FW access to tableC needs name mapping
+[PONRTSYS-14163] [TOPAZ] Remove all access to CQEM hardware
+[PONRTSYS-14286] [TOPAZ] Remove all access to DBR hardware
+[PONRTSYS-14164] [PONLIB] TOPAZ remove XGMII_TX
+[PONRTSYS-14226] [G-PON] [LGM-C] Clear lower 3 bits in EQDEL.Y
+[PONRTSYS-14306] [PONLIB] [LGM-C] Enable BDEL 3 byte alignment calculation
+[PONRTSYS-14296] [PONLIB] Correct Copyright information
+[PONRTSYS-14302] [NG-PON2] Use SN grant indication to skip early the ONU activation in O1.2
+[PONRTSYS-14322] [TOPAZ] Remove all access to trace XTX hardware
+
+3.26.x.y.32:
+[PONRTSYS-14173] [LGM-C] Compare HW version reported by SW with ARC compilation target
+
+3.26.x.y.24:
+[PONRTSYS-14012] [TOPAZ] Prepare FW and compile environment for Topaz
+[PONRTSYS-14014] [PONLIB] HW version shall select TPZ or LGM_C code if it is not FLM or LGM_B
+[PONRTSYS-14023] [PONLIB] Increase draining trigger threshold when sending OMCC was too long delayed
+[PONRTSYS-14035] [TOPAZ] Compile switch specific for A step versus B step
+[PONRTSYS-14033] [PONILB] Bugfix in case of event output mailbox overflow
+[PONRTSYS-14060] [TOPAZ] Prepare FW and compile environment for Topaz
+[PONRTSYS-14148] [PONLIB] Replace spectool defines of shifted masks by __SMSK
+[PONRTSYS-14143] [XGS-PON] MIC check on Ranging_Time PLOAMd messages fails occasionally
+[PONRTSYS-14141] [G-PON] type B protection delay the state change from O6 to O4 until DS synch attained
+[PONRTSYS-14213] [PONLIB] [LGM-C] Remove BDEL 4 byte alignment calculation
+
 3.26.x.y.8:
 [PONRTSYS-13998] [PONLIB] Remove unused defines
 [PONRTSYS-13994] [PONLIB] Add comment on HW_VER value which identifies step A B C of LGM
 [PONRTSYS-14007] [G-PON] GPON type B protection bugfix state change from O6 to O4
 [PONRTSYS-14009] [PONLIB] Import FW message Interface header files
-[PONRTSYS-13995] [NGPON2] Check that DWLCH received is the same as the expected one
+[PONRTSYS-13995] [NG-PON2] Check that DWLCH received is the same as the expected one
 
 3.26.x.y.0:
 [PONRTSYS-13795] [PONLIB] Remove parameter: loop_timing_mode
@@ -113,7 +202,7 @@ Next:
 3.23.x.y.24:
 [PONRTSYS-12543] [PONLIB] Change downstream FCS/timestamp order
 
-3.23.x.y.16:12168
+3.23.x.y.16:
 [PONRTSYS-12425] [PONLIB] Reduce FW log level for: "Timeout in State"
 [PONRTSYS-12474] [XGS-PON] New IOP bit reduces latency by providing a lower limit of request size
 [PONRTSYS-12475] [XGS-PON] Increase PON_REQUESTING_MINIMUM to 10 kbyte
