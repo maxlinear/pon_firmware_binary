@@ -34,6 +34,20 @@ TESTBIT+MAJ.MIN.STANDARD.PLATFORM.PATCH
 
 Next:
 
+4.1.x.y.24:
+[PONRTSYS-14860] [PONLIB] GEM counter 64 byte for LGM C and Topaz remove HW workaround
+[PONRTSYS-14894] [G-PON] Rogue when multiple US burst series occur in descending size order
+[PONRTSYS-14818] [NG-PON2] Allow GEM_PORT_ID_WRITE only in ploam states O5.x or O6 or O8.x or O.9
+
+4.1.x.y.16:
+[PONRTSYS-14706] [XGS-PON] Incorrect handling of loss of DSYNC event while in O7
+[PONRTSYS-14737] [PONLIB] Delayed transition to O7 upon power cycle
+[PONRTSYS-14717] [NG-PON2] No tuning to protection channel already in O6
+[PONRTSYS-14783] [G-PON] Long ranging time with some OLT in GPON mode
+[PONRTSYS-14500] [XGS-PON] [TOPAZ] Accumulate simultaneous BwMap discard reasons
+[PONRTSYS-14557] [G-PON] [TOPAZ] Several fixes needed in BWM_vBwMapG984() for Topaz
+[PONRTSYS-14808] [XGS-PON] Improve FW logging since it logs discarding of System and Channel profiles which do not exist in XGS-PON
+
 4.1.x.y.8:
 [PONRTSYS-14659] [NG-PON2] [XGS-PON] [XG-PON1] PLOAM_STATE.Reason is wrong 255 instead of 65535
 [PONRTSYS-14653] [PONLIB] Clean-up of PON_TXOFF_DELAY_ID_E related code
