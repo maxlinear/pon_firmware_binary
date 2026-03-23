@@ -34,6 +34,27 @@ TESTBIT+MAJ.MIN.STANDARD.PLATFORM.PATCH
 
 Next:
 
+4.1.x.y.40:
+[PONRTSYS-15064] [TOPAZ] Add FW support for HW trace buffer in ETH_US
+[PONRTSYS-14409] [TOPAZ] LoopTiming FSM implementation part C,D,E,F,G,H
+[PONRTSYS-14021] [TOPAZ] Add DESC flush support to FW
+[PONRTSYS-15154] [TOPAZ] 4th import LSD
+[PONRTSYS-15150] [PONLIB] Capability message shall report maximum number of QoS index
+[PONRTSYS-15186] [PONLIB] Add clock supervision state with wait time before switching on the continuous clock supervision
+[PONRTSYS-15187] [PONLIB] Clean up checking for LCDG LOF LODS alarms right after loop timing
+[PONRTSYS-15193] [PONLIB] DEBUG_DATA_ACCESS to XBar shall increment address offset correctly
+[PONRTSYS-15192] [TOPAZ] 5th import LSD
+[PONRTSYS-15188] [PONLIB] Ensure XBM access is clean
+
+4.1.x.y.32:
+[PONRTSYS-14851] [TOPAZ] Import LSD defines for PON clock supervision
+[PONRTSYS-14931] [TOPAZ] Import LSD for new DESC parameters
+[PONRTSYS-15015] [TOPAZ] Import LSD for new ETHUS interrupts
+[PONRTSYS-15039] [TOPAZ] 3rd import LSD for new DESC parameters
+[PONRTSYS-15100] [G-PON] Reset 4 LSB in PIType bitfield in G.984 response in message ONU status
+[PONRTSYS-14918] [TOPAZ] Removes access to REQC0 REQC1 and REQ_FDC
+[PONRTSYS-14759] [Housekeeping] [TOPAZ] Generate a 3rd Boot ROM Version
+
 4.1.x.y.24:
 [PONRTSYS-14860] [PONLIB] GEM counter 64 byte for LGM C and Topaz remove HW workaround
 [PONRTSYS-14894] [G-PON] Rogue when multiple US burst series occur in descending size order
