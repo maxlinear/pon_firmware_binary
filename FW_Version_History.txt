@@ -34,6 +34,27 @@ TESTBIT+MAJ.MIN.STANDARD.PLATFORM.PATCH
 
 Next:
 
+4.1.x.y.56:
+[PONRTSYS-15376] [XGSPON] [TOPAZ] Add request FIFO toggle bit flip at SFC border
+[PONRTSYS-15368] [Palladium] Add debug printout of two new FUSE register bit fields
+[PONRTSYS-15366] [XGS-PON] Stuck TX in O51 due to DS with 100% of uncorrected FS HEC errors (master)
+[PONRTSYS-15370] [Palladium] ARC firmware init function for TOPAZ NOC bus
+[PONRTSYS-15385] [XGS-PON] [XG-PON] Handling of timer TO6 acc. G.9807.1 Amd1 and G.987.3
+
+4.1.x.y.48:
+[PONRTSYS-15178] [TOPAZ] 6th import register Spectool changes
+[PONRTSYS-15249] [TOPAZ] 7th import LSD
+[PONRTSYS-15127] [TOPAZ] 8th import register Spectool changes
+[PONRTSYS-15332] [Palladium] Only for Palladium add every superframe a UART clock printout
+[PONRTSYS-15002] [TOPAZ] Removes access to PONIP_POBUF_IO_DBRD
+[PONRTSYS-14857] [TOPAZ] Initialize base address for 9 new ETH_US counters
+[PONRTSYS-15336] [TOPAZ] [GPON] Shift the unit of StartTime value writes into DESC request FIFO
+[PONRTSYS-15334] [TOPAZ] [PONLIB] Check for LOF LODS alarms in case no SerDes no loop timing at Palladium
+[PONRTSYS-15337] [TOPAZ] For Palladium temporary FW init to replace lack of host message ACC HW configuration
+[PONRTSYS-15357] [TOPAZ] 9th import LSD
+[PONRTSYS-15361] [TOPAZ] 10th import register Spectool changes
+[PONRTSYS-15344] [TOPAZ] Initialize HW DMA upstream
+
 4.1.x.y.40:
 [PONRTSYS-15064] [TOPAZ] Add FW support for HW trace buffer in ETH_US
 [PONRTSYS-14409] [TOPAZ] LoopTiming FSM implementation part C,D,E,F,G,H
